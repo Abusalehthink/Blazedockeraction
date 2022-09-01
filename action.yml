@@ -1,0 +1,14 @@
+name: 'Blazedockeraction'
+description: 'Run Blazemeter Test from GitHub Action'
+inputs:
+  a: 
+    description: 'a'
+    required: true
+    default: 0
+  b:
+    description: 'b'
+    required: true
+    default: 0
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
